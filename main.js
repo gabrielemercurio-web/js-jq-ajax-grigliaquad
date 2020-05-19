@@ -8,7 +8,7 @@
 
 $(document).ready(function () {
 
-    $('.small').click(function () {
+    $('.small').one('click', function() {
 
         var elemento_corrente = $(this);
 
