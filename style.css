@@ -8,7 +8,7 @@
 #wrapper {
     width: 100vw;
     height: 100vh;
-    background-color: #691313;
+    background-color: #222;
     display: flex;
 }
 
@@ -24,18 +24,27 @@
     width: 100px;
     height: 100px;
     float: left;
-    border: 1px solid #691313;
+    border: 1px solid #222;
     cursor: pointer;
     transition: 0.3s ease-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 32px;
 }
 
 .small:hover {
-    background-color: #691313;
+    background-color: #a0a0a0;
 }
 
+.giallo {
+    background-color: orange;
+}
 
-
-
+.verde {
+    background-color: #007a05;
+}
 
 
 
